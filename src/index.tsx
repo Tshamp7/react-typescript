@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
-import { useState } from "react";
-import EventComponent from "./events/EventComponent";
+import UserSearch from "./refs/UserSearch";
+//import EventComponent from "./events/EventComponent";
 //import UserSearch from "./state/UserSearch";
 //import Parent from "./props/Parent";
 //import GuestList from "./state/GuestList";
@@ -8,7 +8,7 @@ import EventComponent from "./events/EventComponent";
 const App = () => {
   return (
     <div>
-      <EventComponent />
+      <UserSearch />
     </div>
   );
 };
